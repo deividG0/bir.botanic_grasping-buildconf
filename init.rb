@@ -23,8 +23,14 @@
 # NOTE: Variables set like this are exported in the generated 'env.sh' script.
 #
 
-require 'autoproj/gitorious'
-Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
-Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'https://github.com')
-Autoproj.config.set('build', File.join(Autoproj.root_dir, 'build')) unless Autoproj.config.get('build', nil)
-Autoproj.config.set('source', 'src') unless Autoproj.config.source_dir
+# require 'autoproj/gitorious'
+# Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
+# Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'https://github.com')
+# Autoproj.config.set('build', File.join(Autoproj.root_dir, 'build')) unless Autoproj.config.get('build', nil)
+# Autoproj.config.set('source', 'src') unless Autoproj.config.source_dir
+
+Autobuild::CMake.show_make_messages = false
+
+Autoproj.config.set("source", "src") unless Autoproj.config.source_dir
+
+require 'autoproj/git_server_configuration'
