@@ -25,5 +25,8 @@ package_sets:
     branch: main
 
 layout:
-  - open_manipulation_robot
+  # - open_manipulation_robot
+  - open_manipulator_pro_description
+  - open_manipulator_pro_control
+  - open_manipulator_pro_gazebo
   - manipulator_trajectory_vision_gui
