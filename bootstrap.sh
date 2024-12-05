@@ -22,7 +22,8 @@ BOOTSTRAP_BRANCH=main
 BOOTSTRAP_MANIFEST=manifest
 AUTOPROJ_INSTALL_URL=https://raw.githubusercontent.com/rock-core/autoproj/master/bin/autoproj_install
 
-BOOTSTRAP_URL=git@github.com:Brazilian-Institute-of-Robotics/bir.botanic-grasping-buildconf.git
+# BOOTSTRAP_URL=git@github.com:Brazilian-Institute-of-Robotics/bir.botanic-grasping-buildconf.git
+BOOTSTRAP_URL=git@github.com:deividG0/bir.botanic_grasping-buildconf.git
 PYTHON_EXECUTABLE=/usr/bin/python3
 
 export AUTOPROJ_OSDEPS_MODE=all
