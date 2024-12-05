@@ -1,25 +1,29 @@
 package_sets:
-  - github: Brazilian-Institute-of-Robotics/python.base-package_set
-    branch: main
+  # - github: Brazilian-Institute-of-Robotics/python.base-package_set
+  #   branch: main
+  #   private: true
+  # - github: Brazilian-Institute-of-Robotics/ros2.colcon-package_set
+  #   branch: main
+  #   private: true
+  # - github: Brazilian-Institute-of-Robotics/ros2.distro-package_set
+  #   branch: main
+  #   private: true
+  # - github: Brazilian-Institute-of-Robotics/core_base-package_set
+  #   branch: main
+  #   private: true
+  # - github: Brazilian-Institute-of-Robotics/ros2.gazebo-package_set
+  #   branch: main
+  #   private: true
+  # - github: Brazilian-Institute-of-Robotics/commons_plugin_package_set
+  #   private: true
+  #   branch: main
+  - github: Brazilian-Institute-of-Robotics/bir.ros-package_set
     private: true
-  - github: Brazilian-Institute-of-Robotics/ros2.colcon-package_set
     branch: main
-    private: true
-  - github: Brazilian-Institute-of-Robotics/ros2.distro-package_set
-    branch: main
-    private: true
-  - github: Brazilian-Institute-of-Robotics/core_base-package_set
-    branch: main
-    private: true
-  - github: Brazilian-Institute-of-Robotics/ros2.gazebo-package_set
-    branch: main
-    private: true
-  - github: Brazilian-Institute-of-Robotics/commons_plugin_package_set
+  - github: deividG0/bir.botanic_grasping-package_set
     private: true
     branch: main
-  - github: Brazilian-Institute-of-Robotics/bir.bg-package_set
-    branch: main
-    private: true
 
 layout:
-  - omp_simulation
+  - open_manipulation_robot
+  - manipulator_trajectory_vision_gui
