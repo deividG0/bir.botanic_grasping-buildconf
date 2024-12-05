@@ -17,9 +17,9 @@ package_sets:
   - github: Brazilian-Institute-of-Robotics/commons_plugin_package_set
     private: true
     branch: main
-  - github: Brazilian-Institute-of-Robotics/bir.ros-package_set
-    private: true
-    branch: main
+  # - github: Brazilian-Institute-of-Robotics/bir.ros-package_set
+  #   private: true
+  #   branch: main
   - github: deividG0/bir.botanic_grasping-package_set
     private: true
     branch: main
