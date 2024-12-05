@@ -8,15 +8,15 @@ package_sets:
   - github: Brazilian-Institute-of-Robotics/ros2.distro-package_set
     branch: main
     private: true
-  # - github: Brazilian-Institute-of-Robotics/core_base-package_set
-  #   branch: main
-  #   private: true
+  - github: Brazilian-Institute-of-Robotics/core_base-package_set
+    branch: main
+    private: true
   - github: Brazilian-Institute-of-Robotics/ros2.gazebo-package_set
     branch: main
     private: true
-  # - github: Brazilian-Institute-of-Robotics/commons_plugin_package_set
-  #   private: true
-  #   branch: main
+  - github: Brazilian-Institute-of-Robotics/commons_plugin_package_set
+    private: true
+    branch: main
   - github: Brazilian-Institute-of-Robotics/bir.ros-package_set
     private: true
     branch: main
