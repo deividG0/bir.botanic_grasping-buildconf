@@ -32,4 +32,4 @@ layout:
   - manipulator_trajectory_vision_gui
   - dynamixel_hardware
   - dynamixel-workbench
-  - dynamixel-workbench-msgs
+  - dynamixel-workbench-msgs/dynamixel-workbench-msgs
