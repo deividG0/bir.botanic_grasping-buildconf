@@ -26,6 +26,9 @@ package_sets:
 
 layout:
   # - open_manipulation_robot
+  - dynamixel_hardware
+  - dynamixel-workbench
+  - dynamixel-workbench-msgs
   - open_manipulator_pro_description
   - open_manipulator_pro_control
   - open_manipulator_pro_gazebo
