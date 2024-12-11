@@ -17,19 +17,12 @@ package_sets:
   - github: Brazilian-Institute-of-Robotics/commons_plugin_package_set
     private: true
     branch: main
-  # - github: Brazilian-Institute-of-Robotics/bir.ros-package_set
-  #   private: true
-  #   branch: main
   - github: deividG0/bir.botanic_grasping-package_set
     private: true
     branch: main
 
 layout:
-  # - open_manipulation_robot
+  - botanic_grasping_gui
   - open_manipulator_pro_description
   - open_manipulator_pro_control
   - open_manipulator_pro_gazebo
-  - manipulator_trajectory_vision_gui
-  - dynamixel_hardware
-  - dynamixel-workbench
-  - dynamixel-workbench-msgs
